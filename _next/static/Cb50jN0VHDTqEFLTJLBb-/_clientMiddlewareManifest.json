@@ -1,0 +1,10 @@
+[
+  {
+    "regexp": "^\\/harper-portal-demo(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!demo(?:\\/|$)|_next|[^?]*\\.(?:html?|css|js(?!on)|json|mjs|pdf|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*))(\\\\.json)?[\\/#\\?]?$",
+    "originalSource": "/((?!demo(?:/|$)|_next|[^?]*\\.(?:html?|css|js(?!on)|json|mjs|pdf|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)"
+  },
+  {
+    "regexp": "^\\/harper-portal-demo(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(api|trpc))(.*)(\\\\.json)?[\\/#\\?]?$",
+    "originalSource": "/(api|trpc)(.*)"
+  }
+]
