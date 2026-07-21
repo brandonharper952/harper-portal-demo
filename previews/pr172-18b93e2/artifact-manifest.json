@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "18b93e264f05eddb89554a1e6c9664e3cb7fe9a6",
+  "sourceCommit": "050adf942a3ee73974ee7adc97280634893037c0",
   "canonicalScenarios": [
     {
       "id": "clean",
@@ -260,9 +260,9 @@
   "bundle": {
     "javascript": {
       "files": 2,
-      "rawBytes": 826897,
-      "gzipBytes": 240950,
-      "brotliBytes": 201434
+      "rawBytes": 826894,
+      "gzipBytes": 240941,
+      "brotliBytes": 201474
     },
     "css": {
       "files": 1,
@@ -280,7 +280,7 @@
     {
       "path": "404.html",
       "bytes": 1407,
-      "sha256": "30f321dd5fedc441bdccb6a97ef3fceed94c68cc5096325952e2d7de24471b0e"
+      "sha256": "6250ec3ea9614d2fb2e32503608bf580d72261df5b1599172c850b44033fb780"
     },
     {
       "path": "assets/chunk-CBUS_CnE.js",
@@ -288,9 +288,9 @@
       "sha256": "9ce017ef86fd8dd6a67c924a9b41ba20b9479a19f1e45c07e145ad52b6dfab22"
     },
     {
-      "path": "assets/demo-Dsfx_1xu.js",
-      "bytes": 411980,
-      "sha256": "302dc07af9b70b40c9e8eee05c8cd7f43a6939adb7288740fce1a76c6c6e8dba"
+      "path": "assets/demo-CEGgBi7K.js",
+      "bytes": 411977,
+      "sha256": "0b52ea62c3b070c8387b3b6069febb331e6a132992f4eda19a13d70c3eee3345"
     },
     {
       "path": "assets/plus-jakarta-sans-latin-B2KjpZfh.woff2",
@@ -305,67 +305,67 @@
     {
       "path": "demo/active/index.html",
       "bytes": 1405,
-      "sha256": "2ffae0ea6475294bb9b34bbdd7aed093b85d31790c175a879e6c6de08b33c192"
+      "sha256": "9cdcb71fc55645e24179b2b6f382455733dedd39f3d7829917b66ea541980dca"
     },
     {
       "path": "demo/cancellation/index.html",
       "bytes": 1411,
-      "sha256": "da4fa87cdb5b3a4720543229e563e84daf29517cc380602a75b5f650ef2893e0"
+      "sha256": "ca585cf2ec9ca34ac0efc2e46d9fc7ebb17cf2587e2bb72a02dae03c4a17003f"
     },
     {
       "path": "demo/certificates/index.html",
       "bytes": 1411,
-      "sha256": "9237764eb3ca480caaacc945b6e96b3da0ddce1fd308be6e87973c4c210325aa"
+      "sha256": "f8f30dd22234fa2bb184b64cef817733923206308d23e6163c9a74eeed766c53"
     },
     {
       "path": "demo/clean/index.html",
       "bytes": 1404,
-      "sha256": "bb3d5b134ddcb4007f9021e756d3305071a25705082b6efded790bc7683b9bb7"
+      "sha256": "2f9b19e4cb7c6a0ffbd19182350c9e333600f2cd5c0f3a83b945dbaac09ff66f"
     },
     {
       "path": "demo/expired/index.html",
       "bytes": 1406,
-      "sha256": "79b8440cc3c6e6eac46e944485f073a732fea3dfbf37ac791f902d3c07ce815d"
+      "sha256": "4f685a48bd72f809a2349b67113a1d79cc909fad0e0dcae431f2e750e160b23a"
     },
     {
       "path": "demo/heavy-contact/index.html",
       "bytes": 1412,
-      "sha256": "5717cdd04d7ca32875a3c38da3b23a0e217cc828bc31020b7e2f4e251eecf42d"
+      "sha256": "6cb21a297d59cca28593316c83aa7bc2cf2b15358cb2c7e027b676ecb9eaa0c9"
     },
     {
       "path": "demo/index.html",
       "bytes": 1406,
-      "sha256": "532a8ae2da596a6a4a1d384c4b67a54e7d0601e42991da0bdd51ec2a4d3f4533"
+      "sha256": "3c9f6a2ef3c76f0ea0c2cca79356ee924cc424c738a02c6a0f09af2eb1509b90"
     },
     {
       "path": "demo/payment-truth/index.html",
       "bytes": 1412,
-      "sha256": "306bf864d1375f79ca319fb1250a4e305fb73443ec9a425592f842089692babc"
+      "sha256": "33c3fe0853051397f52e981a33ef66a0aa80fd31dae1529df63d579b68488665"
     },
     {
       "path": "demo/portfolio/index.html",
       "bytes": 1408,
-      "sha256": "77d52b6b5074ca7e79b70cab3ed686b7284b88855cb5370a0968ea7ca267dbfd"
+      "sha256": "a97646fa08e12c14721b0f60da26fae79cfa51d39b81dcbed9822abc5cd6b2b2"
     },
     {
       "path": "demo/pre-bind/index.html",
       "bytes": 1407,
-      "sha256": "4b31a63923f3e6d938e12078919d89cd38854e38493d895e452ad040565bf893"
+      "sha256": "27cc786a55323bb4901040a7ba87f7335d69ea29538c913e56e9a6bc0d5c01f3"
     },
     {
       "path": "demo/renewal/index.html",
       "bytes": 1406,
-      "sha256": "7d3f5145093e670f021fea3c9e20874116be73848068ef39c8f3982579799893"
+      "sha256": "16d858b8a5878ffe35b678a367d27c7eb604df17f67c539b2a95578b97a4c195"
     },
     {
       "path": "demo/waiting-carrier/index.html",
       "bytes": 1414,
-      "sha256": "2d88b3405e5573133be081674dba89f590812e4abe393f027d3699a0781125e4"
+      "sha256": "b2e2799568b56e897df6a559a3490ce4274cf6bbc3e306e213b56a5b280219aa"
     },
     {
       "path": "demo/waiting-documents/index.html",
       "bytes": 1416,
-      "sha256": "dfd5ce1a589e3215b6f623d14a8644ca3931d25e94e00e193f1a1426d55e075a"
+      "sha256": "0c928787cade447bb5994bbf9572325c3e73fa55a83c38d070b66e6226919444"
     },
     {
       "path": "harper_char_logo.svg",
