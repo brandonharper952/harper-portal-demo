@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "199a95840a8a7a4b92c5f5eca899c99d30623ef7",
+  "canonicalScenarios": [
+    {
+      "id": "clean",
+      "label": "Active - in good standing"
+    },
+    {
+      "id": "pre-bind",
+      "label": "Paid - policy being finalized"
+    },
+    {
+      "id": "waiting-carrier",
+      "label": "Waiting on carrier"
+    },
+    {
+      "id": "cancellation",
+      "label": "Cancellation in progress"
+    },
+    {
+      "id": "expired",
+      "label": "Expired policy"
+    },
+    {
+      "id": "renewal",
+      "label": "Renewal in 30 days"
+    },
+    {
+      "id": "payment-truth",
+      "label": "Payment due"
+    },
+    {
+      "id": "certificates",
+      "label": "Many certificates issued"
+    },
+    {
+      "id": "heavy-contact",
+      "label": "Open service request"
+    },
+    {
+      "id": "portfolio",
+      "label": "Five policies in force"
+    }
+  ],
+  "routeMatrix": [
+    {
+      "scenario": "clean",
+      "tab": "overview",
+      "path": "demo/clean/?tab=overview"
+    },
+    {
+      "scenario": "clean",
+      "tab": "coverage",
+      "path": "demo/clean/?tab=coverage"
+    },
+    {
+      "scenario": "clean",
+      "tab": "payments",
+      "path": "demo/clean/?tab=payments"
+    },
+    {
+      "scenario": "clean",
+      "tab": "support",
+      "path": "demo/clean/?tab=support"
+    },
+    {
+      "scenario": "pre-bind",
+      "tab": "overview",
+      "path": "demo/pre-bind/?tab=overview"
+    },
+    {
+      "scenario": "pre-bind",
+      "tab": "coverage",
+      "path": "demo/pre-bind/?tab=coverage"
+    },
+    {
+      "scenario": "pre-bind",
+      "tab": "payments",
+      "path": "demo/pre-bind/?tab=payments"
+    },
+    {
+      "scenario": "pre-bind",
+      "tab": "support",
+      "path": "demo/pre-bind/?tab=support"
+    },
+    {
+      "scenario": "waiting-carrier",
+      "tab": "overview",
+      "path": "demo/waiting-carrier/?tab=overview"
+    },
+    {
+      "scenario": "waiting-carrier",
+      "tab": "coverage",
+      "path": "demo/waiting-carrier/?tab=coverage"
+    },
+    {
+      "scenario": "waiting-carrier",
+      "tab": "payments",
+      "path": "demo/waiting-carrier/?tab=payments"
+    },
+    {
+      "scenario": "waiting-carrier",
+      "tab": "support",
+      "path": "demo/waiting-carrier/?tab=support"
+    },
+    {
+      "scenario": "cancellation",
+      "tab": "overview",
+      "path": "demo/cancellation/?tab=overview"
+    },
+    {
+      "scenario": "cancellation",
+      "tab": "coverage",
+      "path": "demo/cancellation/?tab=coverage"
+    },
+    {
+      "scenario": "cancellation",
+      "tab": "payments",
+      "path": "demo/cancellation/?tab=payments"
+    },
+    {
+      "scenario": "cancellation",
+      "tab": "support",
+      "path": "demo/cancellation/?tab=support"
+    },
+    {
+      "scenario": "expired",
+      "tab": "overview",
+      "path": "demo/expired/?tab=overview"
+    },
+    {
+      "scenario": "expired",
+      "tab": "coverage",
+      "path": "demo/expired/?tab=coverage"
+    },
+    {
+      "scenario": "expired",
+      "tab": "payments",
+      "path": "demo/expired/?tab=payments"
+    },
+    {
+      "scenario": "expired",
+      "tab": "support",
+      "path": "demo/expired/?tab=support"
+    },
+    {
+      "scenario": "renewal",
+      "tab": "overview",
+      "path": "demo/renewal/?tab=overview"
+    },
+    {
+      "scenario": "renewal",
+      "tab": "coverage",
+      "path": "demo/renewal/?tab=coverage"
+    },
+    {
+      "scenario": "renewal",
+      "tab": "payments",
+      "path": "demo/renewal/?tab=payments"
+    },
+    {
+      "scenario": "renewal",
+      "tab": "support",
+      "path": "demo/renewal/?tab=support"
+    },
+    {
+      "scenario": "payment-truth",
+      "tab": "overview",
+      "path": "demo/payment-truth/?tab=overview"
+    },
+    {
+      "scenario": "payment-truth",
+      "tab": "coverage",
+      "path": "demo/payment-truth/?tab=coverage"
+    },
+    {
+      "scenario": "payment-truth",
+      "tab": "payments",
+      "path": "demo/payment-truth/?tab=payments"
+    },
+    {
+      "scenario": "payment-truth",
+      "tab": "support",
+      "path": "demo/payment-truth/?tab=support"
+    },
+    {
+      "scenario": "certificates",
+      "tab": "overview",
+      "path": "demo/certificates/?tab=overview"
+    },
+    {
+      "scenario": "certificates",
+      "tab": "coverage",
+      "path": "demo/certificates/?tab=coverage"
+    },
+    {
+      "scenario": "certificates",
+      "tab": "payments",
+      "path": "demo/certificates/?tab=payments"
+    },
+    {
+      "scenario": "certificates",
+      "tab": "support",
+      "path": "demo/certificates/?tab=support"
+    },
+    {
+      "scenario": "heavy-contact",
+      "tab": "overview",
+      "path": "demo/heavy-contact/?tab=overview"
+    },
+    {
+      "scenario": "heavy-contact",
+      "tab": "coverage",
+      "path": "demo/heavy-contact/?tab=coverage"
+    },
+    {
+      "scenario": "heavy-contact",
+      "tab": "payments",
+      "path": "demo/heavy-contact/?tab=payments"
+    },
+    {
+      "scenario": "heavy-contact",
+      "tab": "support",
+      "path": "demo/heavy-contact/?tab=support"
+    },
+    {
+      "scenario": "portfolio",
+      "tab": "overview",
+      "path": "demo/portfolio/?tab=overview"
+    },
+    {
+      "scenario": "portfolio",
+      "tab": "coverage",
+      "path": "demo/portfolio/?tab=coverage"
+    },
+    {
+      "scenario": "portfolio",
+      "tab": "payments",
+      "path": "demo/portfolio/?tab=payments"
+    },
+    {
+      "scenario": "portfolio",
+      "tab": "support",
+      "path": "demo/portfolio/?tab=support"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "active",
+      "canonicalScenario": "clean",
+      "path": "demo/active/"
+    },
+    {
+      "alias": "waiting-documents",
+      "canonicalScenario": "pre-bind",
+      "path": "demo/waiting-documents/"
+    }
+  ],
+  "bundle": {
+    "javascript": {
+      "files": 2,
+      "rawBytes": 459104,
+      "gzipBytes": 129453,
+      "brotliBytes": 108451
+    },
+    "css": {
+      "files": 1,
+      "rawBytes": 65019,
+      "gzipBytes": 12869,
+      "brotliBytes": 10825
+    }
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 1545,
+      "sha256": "9f6496529c6f8523b62e6a207112351fa60cef618b4de7ca5dcff866cd0df157"
+    },
+    {
+      "path": "assets/demo-DCF0R8Wc.js",
+      "bytes": 458221,
+      "sha256": "73f3d8ab980dffea0aa6478f4cfb7f2796caf5e49ac53f3c4bb2d91a1a1053bd"
+    },
+    {
+      "path": "assets/plus-jakarta-sans-latin-B2KjpZfh.woff2",
+      "bytes": 27272,
+      "sha256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215"
+    },
+    {
+      "path": "assets/style-AseHnk05.css",
+      "bytes": 65019,
+      "sha256": "1e7763fd02388b5de3dd0d050097d433570de27de7e4dcb15e7f7a5ccab4628f"
+    },
+    {
+      "path": "demo/active/index.html",
+      "bytes": 1543,
+      "sha256": "3e7697592402b187899ffcab4c4c1f205653e2b0b8beda62411b2f000257d8a0"
+    },
+    {
+      "path": "demo/cancellation/index.html",
+      "bytes": 1549,
+      "sha256": "c999d0ea9c8345e595b074eb71766f6f3c536e1b45a499bde93970dfbf84e50f"
+    },
+    {
+      "path": "demo/certificates/index.html",
+      "bytes": 1549,
+      "sha256": "473ce311943b8d98394168369f76283d56baa7348c0af8b3e442c5ad66bad016"
+    },
+    {
+      "path": "demo/clean/index.html",
+      "bytes": 1542,
+      "sha256": "c48281dfe852f2aa058a9a34fb51bb9007684ab0adc8bbdefb9df20f966202d9"
+    },
+    {
+      "path": "demo/expired/index.html",
+      "bytes": 1544,
+      "sha256": "58ea99d3de79c82d57f7655297d29738b587aebbbf213217d675d8e5c69175e2"
+    },
+    {
+      "path": "demo/heavy-contact/index.html",
+      "bytes": 1550,
+      "sha256": "cef00dde7e9d4161cf6a2dd69f103133fe3f8c61e81502649f3df486cc952c15"
+    },
+    {
+      "path": "demo/index.html",
+      "bytes": 1544,
+      "sha256": "b7a5b867d1dbddb387de391608a2600f5419caf360984e68fcf6d1f6b473210f"
+    },
+    {
+      "path": "demo/payment-truth/index.html",
+      "bytes": 1550,
+      "sha256": "4ac3ec503e27b8ae82dd8468f72cd6e46efaf8bfa211cf98e3fd163a65d2acc3"
+    },
+    {
+      "path": "demo/portfolio/index.html",
+      "bytes": 1546,
+      "sha256": "83bd33187f6a259b1dfc120af32dd1089a93b40ea27df56b9531f7e1b0dbe130"
+    },
+    {
+      "path": "demo/pre-bind/index.html",
+      "bytes": 1545,
+      "sha256": "7f72085985a4657d928eaf5943236d89e7602bcaeb7e23c32a938acda5a16074"
+    },
+    {
+      "path": "demo/renewal/index.html",
+      "bytes": 1544,
+      "sha256": "d42e33c59272aec37210960d519bf3912701de8a881fb6641934880750f16160"
+    },
+    {
+      "path": "demo/waiting-carrier/index.html",
+      "bytes": 1552,
+      "sha256": "f1014101b6200baaec6e9c615baccc28389a1c1efbefbd8b5c66911bfd8a50ed"
+    },
+    {
+      "path": "demo/waiting-documents/index.html",
+      "bytes": 1554,
+      "sha256": "790c994d644ae792ad6a7eef268f970f937e33402cf34f133ec2e6a143d8bed9"
+    },
+    {
+      "path": "harper_char_logo.svg",
+      "bytes": 880,
+      "sha256": "14d98722570a02a431ab536548e5c5f6edad43c512dd02ae0d570302b88b9c7a"
+    },
+    {
+      "path": "harper_name_logo.svg",
+      "bytes": 6500,
+      "sha256": "8c4685e048ddc1fc2ef210788a0a453dd9e31889398ed4c499144d343ef17f82"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 880,
+      "sha256": "14d98722570a02a431ab536548e5c5f6edad43c512dd02ae0d570302b88b9c7a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 468,
+      "sha256": "f22e563a99c740e35c4d9f6a2deb3f525feb60fe83f082ff635bcda081f4055c"
+    },
+    {
+      "path": "portal-theme-init.js",
+      "bytes": 883,
+      "sha256": "c2cbab0da5f4c386a07e8d0acac22b251405a610912e263e6f01b87a71764011"
+    }
+  ]
+}
